@@ -1,0 +1,34 @@
+---
+title: "My awesome website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+dont need to include "theme: cerulean" if it's in _site.yml already
+
+font awesome! to change icon and font
+
+# This is Sam's awesome website
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
+You can do the stuff you usually do in R markdown.
+
+We are making a website for class [P8105](https://p8105.com/making_websites.html).
+
+We can also [Google](https://www.google.com/) many thing
+
+Check out the [plot page](plots.html) to see you can use the R markdown as usual
+
+Learn more about this site [here](about.html)
+
+
+## add a picture from dir
+
+![](images/Irises.jpeg)
+
+
+

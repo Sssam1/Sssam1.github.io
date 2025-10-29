@@ -1,0 +1,10 @@
+---
+title: "About this website"
+output: 
+  html_document:
+    theme: cerulean
+---
+
+This is the About page!
+
+go back to [homepage](index.html)

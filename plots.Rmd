@@ -1,0 +1,34 @@
+---
+title: "We make plots"
+output: 
+  html_document:
+    theme: cerulean
+---
+
+We make plots in data science
+
+import library
+```{r}
+library(tidyverse)
+```
+
+make a dataframe
+```{r}
+plot_df =
+  tibble(
+    x = rnorm(100, mean = 1, sd = 2),
+    y = 1 + 2 * x + rnorm(100)
+  )
+```
+
+make a plot
+```{r}
+plot_df |> 
+  ggplot(aes(x = x, y = y)) +
+  geom_point()
+```
+
+LaTex
+$$y_i = \beta_0 + \beta_1 x_i + error_i$$
+
+go back to [homepage](index.html)

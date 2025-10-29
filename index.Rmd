@@ -4,12 +4,13 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
 ---
 
-dont need to include "theme: cerulean" if it's in _site.yml already
+dont need to include "theme: journal" if it's in _site.yml already
 
-font awesome! to change icon and font
+use [font awesome](https://fontawesome.com/) to change icon and font
+
+you can change [theme](https://bootswatch.com/3/)
 
 # This is Sam's awesome website
 
